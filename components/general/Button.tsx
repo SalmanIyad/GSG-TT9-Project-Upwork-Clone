@@ -14,6 +14,7 @@ export default function ContinueWith_Button({ content, BgColor }: { content: str
         },
         '&:focus': {
           border: BgColor === 'transparent' ? '1px #222222 solid' : '0',
+          backgroundColor: BgColor || "#14A800",
         },
       }}
     >

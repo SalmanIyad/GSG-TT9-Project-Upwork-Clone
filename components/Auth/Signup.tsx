@@ -21,7 +21,7 @@ export default function Login() {
         <div className='h-2' />
         <ContinueWith_Button content="Continue with Google" BgColor="#4285F4" />
         <TextSeprator content='or'/>
-        <div className="w-full flex sm:flex-col md:flex-row gap-4">
+        <div className="w-full flex flex-col md:flex-row gap-4">
             <Input
                 size="md"
                 placeholder="First Name"
