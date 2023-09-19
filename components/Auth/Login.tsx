@@ -6,6 +6,7 @@ import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import { Box, Button } from '@mui/joy';
 import TextSeprator from '../common/TextSeprator';
 import ContinueWith_Button from '../general/Button'
+import Link from 'next/link';
 
 export default function Login() {
   return (
@@ -26,23 +27,26 @@ export default function Login() {
         <ContinueWith_Button content="Continue with Apple" BgColor="transparent" />
         <div className='h-16' />
         <TextSeprator content="Don't have an Upwork account?" />
-        <Button
-          sx={{
-            backgroundColor: "transparent", 
-            borderRadius: '9999px',
-            width: '204px',
-            border: '2px #108A00 solid',
-            color: '#108A00',
-            '&:hover': {
-              backgroundColor: "transparent",
-            },
-            '&:focus': {
-              border: '2px ##108A00 solid',
-            },
-          }}
-        >
-          Sign Up 
-        </Button>
+        <Link href={'/signup'}>
+          <Button
+            sx={{
+              backgroundColor: "transparent", 
+              borderRadius: '9999px',
+              width: '204px',
+              border: '2px #108A00 solid',
+              color: '#108A00',
+              '&:hover': {
+                backgroundColor: "transparent",
+              },
+              '&:focus': {
+                border: '2px ##108A00 solid',
+              },
+            }}
+          >
+            Sign Up 
+          </Button>
+        </Link>
+        <div className='h-4' />
       </Box>
     </div>
   )

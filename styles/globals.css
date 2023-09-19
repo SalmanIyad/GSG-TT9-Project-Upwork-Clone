@@ -294,7 +294,7 @@ h3 {
 /* footer styles */
 footer {
   @apply
-    min-w-[calc(100%-6rem)] flex justify-center items-center mx-6 py-12 border-t-2 border-gray-700 bg-[#001e00] rounded-lg;
+    min-w-[calc(100%-3rem)] flex justify-center items-center mx-6 py-12 bg-[#001e00] rounded-lg;
 }
 footer * {
   @apply text-white;
