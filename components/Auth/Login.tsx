@@ -4,7 +4,7 @@ import '../../styles/globals.css'
 import Input from '@mui/joy/Input';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import { Box, Button } from '@mui/joy';
-import TextSeprator from '../common/TextSeprator';
+import TextSeprator from '../general/TextSeprator';
 import ContinueWith_Button from '../general/Button'
 import Link from 'next/link';
 

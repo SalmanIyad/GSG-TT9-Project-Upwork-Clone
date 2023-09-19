@@ -249,6 +249,7 @@
   --zindex-modal-popover: 1060;
   --zindex-toaster: 1060;
 }
+
 /* base styles */
 body,
 html {
@@ -257,9 +258,6 @@ html {
 
 body {
   @apply flex-col max-w-screen-xl min-h-full mx-auto text-[length:var(--font-size-base)] font-[number:var(--font-weight-base)] leading-[1.428571429] tracking-[var(--letter-spacing-base)] bg-[color:var(--body-bg)] text-[color:var(--text-dark-on-body)] m-0;
-  font-family: var(--font-family-base), "Helvetica Neue", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji";
 }
 
 /* h's */
@@ -281,7 +279,7 @@ h3 {
 }
 .text_serprator span {
   @apply w-full h-px;
-  background: #E0E0E0;
+  background: #a9a9a9;
 }
 .text_serprator .text {
   @apply min-w-max text-[1rem] text-[#606060] text-center font-normal;

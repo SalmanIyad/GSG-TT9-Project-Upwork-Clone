@@ -3,10 +3,8 @@
 import '../../styles/globals.css'
 import Input from '@mui/joy/Input';
 import { Box, Button } from '@mui/joy';
-import TextSeprator from '../common/TextSeprator';
+import TextSeprator from '../general/TextSeprator';
 import ContinueWith_Button from '../general/Button'
-import Select from '@mui/joy/Select';
-import Option from '@mui/joy/Option';
 import CountriesList from '@/constants/CountriesList';
 import Autocomplete from '@mui/joy/Autocomplete';
 import Checkbox from '@mui/joy/Checkbox';
@@ -57,14 +55,6 @@ export default function Login() {
             type="password"
         />
         <div className='h-4' />
-
-        {/* <Select placeholder="Country">
-            {Object.values(CountriesList).map((countryName, index) => (
-                <Option key={index} value={countryName}>
-                    {countryName}
-                </Option>
-            ))}
-        </Select> */}
 
         <Autocomplete
             placeholder="Country"

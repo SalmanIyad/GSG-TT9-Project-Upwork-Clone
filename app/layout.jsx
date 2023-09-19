@@ -1,9 +1,13 @@
 import "../styles/globals.css";
-import { Inter } from "next/font/google";
+
+import localFont from 'next/font/local'
+
+const neueMontreal = localFont({
+  src: '../utils/fonts/NeueMontreal-Regular.otf',
+  display: 'swap',
+})
 import Header from "../components/common/Header.jsx";
 import Footer from "../components/common/Footer.jsx";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Upwork | The World's Work Marketplace",
@@ -14,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={neueMontreal.className}>
         <Header />
         <section>{children}</section>
         <Footer />
