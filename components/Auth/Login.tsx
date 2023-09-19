@@ -7,6 +7,8 @@ import { Box, Button } from '@mui/joy';
 import TextSeprator from '../general/TextSeprator';
 import ContinueWith_Button from '../general/Button'
 import Link from 'next/link';
+import { FcGoogle } from 'react-icons/fc';
+import AppleIcon from '@mui/icons-material/Apple';
 
 export default function Login() {
   return (
@@ -22,9 +24,9 @@ export default function Login() {
         <div className='h-8' />
         <ContinueWith_Button content="Continue with Email" />
         <TextSeprator content='or'/>
-        <ContinueWith_Button content="Continue with Google" BgColor="#4285F4" />
+        <ContinueWith_Button content="Continue with Google" BgColor="#4285F4" icon={<FcGoogle className='googleIcon' />}/>
         <div className='h-4' />
-        <ContinueWith_Button content="Continue with Apple" BgColor="transparent" />
+        <ContinueWith_Button content="Continue with Apple" BgColor="transparent" icon={<AppleIcon className='appleIcon' />}/>
         <div className='h-16' />
         <TextSeprator content="Don't have an Upwork account?" />
         <Link href={'/signup'}>

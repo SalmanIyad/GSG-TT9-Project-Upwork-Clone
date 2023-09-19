@@ -1,8 +1,15 @@
+import CurrentDate from '@/services/CurrentDate'
+import Greeting from '@/services/Greeting'
 import React from 'react'
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>
+      <div className="flex">
+        <Greeting/>, Salman Iyad
+      </div>
+      <CurrentDate/> 
+    </div>
   )
 }
 
