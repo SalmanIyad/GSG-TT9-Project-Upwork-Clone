@@ -4,17 +4,17 @@ export default function ContinueWith_Button({ content, BgColor }: { content: str
   return (
     <CustomButton
       sx={{
-        backgroundColor: BgColor || "#14A800", 
+        backgroundColor: `${BgColor || "#14A800"} !important`,
         borderRadius: '9999px',
         width: '100%',
         border: BgColor === 'transparent' ? '1px #222222 solid' : '0',
         color: BgColor === 'transparent' ? '#222222' : 'white',
         '&:hover': {
-          backgroundColor: BgColor || "#14A800",
+          backgroundColor: `${BgColor || "#14A800"} !important`,
         },
         '&:focus': {
           border: BgColor === 'transparent' ? '1px #222222 solid' : '0',
-          backgroundColor: BgColor || "#14A800",
+          backgroundColor: `${BgColor || "#14A800"} !important`,
         },
       }}
     >
