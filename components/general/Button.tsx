@@ -13,7 +13,7 @@ export default function ContinueWith_Button({ content, BgColor }: { content: str
           backgroundColor: BgColor || "#14A800",
         },
         '&:focus': {
-          border: '0',
+          border: BgColor === 'transparent' ? '1px #222222 solid' : '0',
         },
       }}
     >
