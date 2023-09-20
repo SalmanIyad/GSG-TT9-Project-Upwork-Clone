@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
-import CurrentDate from "@/services/CurrentDate";
-import Greeting from "@/services/Greeting";
+import CurrentDate from "../../../services/CurrentDate";
+import Greeting from "../../../services/Greeting";
 
 function GreetingCard() {
   return (
