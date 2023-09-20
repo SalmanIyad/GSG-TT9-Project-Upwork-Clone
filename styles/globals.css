@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 /* root styles */
 :root{
   --ws-xs: 4px;
@@ -266,6 +269,14 @@ h3 {
   @apply text-[28px] tracking-[0.2px] leading-9;
 }
 
+.font-cardo-regular {
+  font-family: 'Cardo', serif;
+  font-weight: 400;
+}
+.font-cardo-bold {
+  font-family: 'Cardo', serif;
+  font-weight: 700;
+}
 
 
 .nav-logo {

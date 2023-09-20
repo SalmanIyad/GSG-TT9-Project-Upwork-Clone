@@ -1,13 +1,14 @@
 import "../styles/globals.css";
 
-import localFont from 'next/font/local'
-
-const neueMontreal = localFont({
-  src: '../utils/fonts/NeueMontreal-Regular.otf',
-  display: 'swap',
-})
 import Header from "../components/common/Header.jsx";
 import Footer from "../components/common/Footer.jsx";
+
+import localFont from "next/font/local";
+
+const neueMontreal = localFont({
+  src: "../utils/fonts/NeueMontreal-Regular.otf",
+  display: "swap",
+});
 
 export const metadata = {
   title: "Upwork | The World's Work Marketplace",
