@@ -23,13 +23,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
       </head>
       <body className={`${neueMontreal.className} relative`}>
         <Header />
         <section>{children}</section>
         <Footer />
-
         <BackToTopButton />
       </body>
     </html>

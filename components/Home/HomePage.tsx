@@ -4,7 +4,7 @@ import ProfileCard from "./Cards/ProfileCard";
 
 function HomePage() {
   return (
-    <div className="flex justify-between mx-auto px-4 w-full">
+    <div className="flex justify-between mx-auto w-full">
       <div className="w-[70%]">
         <GreetingCard />
       </div>
