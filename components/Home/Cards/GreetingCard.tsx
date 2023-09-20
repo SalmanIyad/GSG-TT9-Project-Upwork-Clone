@@ -1,10 +1,10 @@
 import "@/styles/globals.css";
-import CurrentDate from "../../../services/CurrentDate";
-import Greeting from "../../../services/Greeting";
+import CurrentDate from "@/services/CurrentDate";
+import Greeting from "@/services/Greeting";
 
 function GreetingCard() {
   return (
-    <div className="flex justify-between items-center mx-auto px-8 w-full border-[1px] border-[var(--border-base-color)] rounded-[16px]">
+    <div className="flex justify-between items-center mx-auto px-8 w-full card-border rounded-[16px]">
       <div className="!max-w-[70%] py-4">
         <CurrentDate />
         <div className="flex">
