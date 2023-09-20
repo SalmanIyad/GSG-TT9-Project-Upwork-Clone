@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import JobItem from './JobItem';
 import { Box } from '@mui/material';
 
