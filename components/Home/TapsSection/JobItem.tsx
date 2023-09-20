@@ -123,8 +123,7 @@ const JobItem = () => {
           </Typography>
           <Stack
             direction='row'
-            spacing={0.5}
-            sx={{ paddingTop: '1rem', color: '#5e6d55' }}>
+            sx={{ paddingTop: '1rem', color: '#5e6d55', display: 'flex', flexWrap: 'wrap', gap: '0.5rem'  }}>
             <Chip sx={{ fontSize: '12px', color: '#5e6d55' }}>Wordpress </Chip>
             <Chip sx={{ fontSize: '12px', color: '#5e6d55' }}>
               Web Development{' '}
@@ -156,7 +155,10 @@ const JobItem = () => {
               5 to 10
             </Typography>
           </Stack>
-          <Stack direction='row' alignItems={'center'}>
+          <Stack direction='row' alignItems={'center'} sx={{
+            display: 'flex',
+            flexWrap: 'wrap'
+          }}>
             <VerifiedIcon sx={{ fill: '#1f57c3', width: '1rem' }} />
             <Typography
               variant='body1'
@@ -166,6 +168,7 @@ const JobItem = () => {
                 letterSpacing: '0.6px',
                 color: '#5e6d55',
                 fontWeight: 500,
+                minWidth: 'fit-content'
               }}>
               Payment verified
             </Typography>

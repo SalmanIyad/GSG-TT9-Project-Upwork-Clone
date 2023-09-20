@@ -12,7 +12,7 @@ function HomePage() {
         <SearchCard />
         <TapsSection/>
       </div>
-      <div className="lg:w-[calc(30%-2rem)]">
+      <div className="w-full lg:w-[calc(30%-2rem)]">
         <ProfileCard />
       </div>
     </div>

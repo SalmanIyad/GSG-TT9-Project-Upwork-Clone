@@ -208,8 +208,7 @@ const LeftSection = () => {
         </Typography>
         <Stack
           direction='row'
-          spacing={0.5}
-          sx={{ paddingTop: '1rem', color: '#5e6d55' }}>
+          sx={{ paddingTop: '1rem', color: '#5e6d55', display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
           <Chip sx={{ fontSize: '12px', color: '#5e6d55' }}>Wordpress </Chip>
           <Chip sx={{ fontSize: '12px', color: '#5e6d55' }}>
             Web Development{' '}
