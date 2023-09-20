@@ -8,8 +8,7 @@ function GreetingCard() {
       <div className="!max-w-[70%] py-4">
         <CurrentDate />
         <div className="flex">
-          <Greeting size="[2.5rem]" />
-          <h3 className="font-cardo-bold !text-[2.5rem]">{' '} Salman Iyad</h3>
+          <Greeting size="[2.2rem]" />
         </div>
       </div>
       <div className="w-[140px] my-4">

@@ -5,10 +5,10 @@ import ProfileCard from "./Cards/ProfileCard";
 function HomePage() {
   return (
     <div className="flex justify-between mx-auto px-4 w-full">
-      <div className="leftSide w-[70%]">
+      <div className="w-[70%]">
         <GreetingCard />
       </div>
-      <div className="rightSide w-[calc(30%-2rem)]">
+      <div className="w-[calc(30%-2rem)]">
         <ProfileCard />
       </div>
     </div>

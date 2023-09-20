@@ -311,3 +311,15 @@ footer * {
 footer a:hover {
   @apply underline;
 }
+
+.transition-3 {
+  @apply transition-all duration-300;
+}
+
+.transition-7{
+  @apply transition-all duration-700;
+}
+
+.card-border {
+  @apply border-[1px] border-[var(--border-base-color)]
+}
