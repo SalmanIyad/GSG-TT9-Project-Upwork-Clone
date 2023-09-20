@@ -114,7 +114,7 @@ const JobItem = () => {
               WebkitLineClamp: 3,
               WebkitBoxOrient: 'vertical',
             }}>
-            The Php version of my PHP / Laravel project is now 7.4. I'd like to
+            The Php version of my PHP / Laravel project is now 7.4. I&apos;d like to
             upgrade it to 7.4 from 8.2 (current stable PHP version). The script
             should work perfectly without any errors after upgrading the PHP
             version. It should be completed within two days and the script is my

@@ -88,7 +88,7 @@ const TabsSection = () => {
               paddingBottom: '1rem',
               padding: '1rem 0 1rem 1rem',
             }}>
-            Browse jobs that match your experience to a client's hiring
+            Browse jobs that match your experience to a client&apos;s hiring
             preferences. Ordered by most relevant.
           </Typography>
           <JopDescription />
