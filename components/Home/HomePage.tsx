@@ -6,13 +6,13 @@ import TapsSection from "./TapsSection";
 
 function HomePage() {
   return (
-    <div className="flex justify-between mx-auto w-full">
-      <div className="flex flex-col gap-4 mx-auto w-[70%]">
+    <div className="flex justify-between flex-col-reverse gap-4 lg:flex-row mx-auto w-full">
+      <div className="flex flex-col gap-4 mx-auto w-full lg:w-[70%]">
         <GreetingCard />
         <SearchCard />
         <TapsSection/>
       </div>
-      <div className="w-[calc(30%-2rem)]">
+      <div className="lg:w-[calc(30%-2rem)]">
         <ProfileCard />
       </div>
     </div>
