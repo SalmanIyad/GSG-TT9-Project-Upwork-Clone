@@ -36,7 +36,7 @@ const PlansConnect = () => {
               paddingBottom: '.5rem',
             }}>
             Join Freelancer Plus to start each month fresh with 80 Connects.
-            You'll get a lot of other perks too! Join now to unlock new features
+            You&apos;ll get a lot of other perks too! Join now to unlock new features
             to help you grow your network and market your skills.
           </Typography>
           <Button
