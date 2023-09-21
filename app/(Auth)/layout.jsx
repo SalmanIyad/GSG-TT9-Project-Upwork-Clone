@@ -6,7 +6,7 @@ import localFont from "next/font/local"
 import BackToTopButton from "@/components/general/BackToTopButton"
 
 const neueMontreal = localFont({
-  src: "@/utils/fonts/NeueMontreal-Regular.otf",
+  src: "../../utils/fonts/NeueMontreal-Regular.otf",
   display: "swap",
 });
 
