@@ -10,7 +10,6 @@ export default function loading() {
         size="xl"
         color="success"
         >
-        Plain
       </Button>
     </div>
   );

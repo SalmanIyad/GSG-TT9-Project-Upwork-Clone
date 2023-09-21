@@ -29,9 +29,9 @@ const JobItem = () => {
         return;
       }
       setState({ ...state, [anchor]: open });
-      open
-        ? router.replace(PATHS.HOME.DETAILS.replace(':id', '1'))
-        : router.replace(PATHS.HOME.ROOT);
+      // open
+      //   ? router.replace(PATHS.HOME.DETAILS.replace(':id', '1'))
+      //   : router.replace(PATHS.HOME.ROOT);
     };
 
   return (
