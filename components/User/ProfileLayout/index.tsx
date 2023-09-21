@@ -1,7 +1,6 @@
 import { Box, Stack } from "@mui/material";
 import MainContainer from "./MainContainer";
 import ProfileHeader from "./MainContainer/ProfileHeader";
-import Footer from "../Footer";
 import Sidebar from "./Sidebar";
 
 const ProfileLayout = () => {
@@ -30,7 +29,6 @@ const ProfileLayout = () => {
           </Box>
         </Stack>
       </Stack>
-      <Footer />
     </Box>
   );
 };
