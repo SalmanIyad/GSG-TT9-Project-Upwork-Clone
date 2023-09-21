@@ -20,7 +20,7 @@ function Greeting( {size} : {size?: string} ) {
   }, []);
 
   return (
-    <h3 className={`font-cardo-bold !text-${size}`}>{greeting}, Salman Iyad</h3>
+    <h3 className={`font-cardo-bold !text-${size}`}>{greeting || 'Hello..'}, Salman Iyad</h3>
   );
 } 
 

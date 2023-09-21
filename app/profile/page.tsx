@@ -1,6 +1,6 @@
 import React from 'react'
 import { Metadata } from 'next'
-import Signup from '../../components/Auth/Signup'
+import ProfilePage from '@/components/Pages/ProfilePage'
 
  
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function page() {
   return (
     <main className='py-8 px-6 md:px-[80px] mx-auto'>
-      <Signup/>
+      <ProfilePage/>
     </main>
   )
 }

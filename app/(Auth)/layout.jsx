@@ -1,11 +1,10 @@
 import "../styles/globals.css";
 
+import Header from "../components/common/Header.jsx";
+import Footer from "../components/common/Footer.jsx";
 
 import localFont from "next/font/local";
 import BackToTopButton from "@/components/general/BackToTopButton";
-
-import Navbar from "@/components/User/Navbar";
-import Footer from "@/components/User/Footer";
 
 const neueMontreal = localFont({
   src: "../utils/fonts/NeueMontreal-Regular.otf",
@@ -25,7 +24,7 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
       </head>
       <body className={`${neueMontreal.className} relative`}>
-        <Navbar />
+        <Header />
         <section>{children}</section>
         <Footer />
         <BackToTopButton />

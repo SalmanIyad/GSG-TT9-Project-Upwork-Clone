@@ -10,7 +10,7 @@ function ProfileCard() {
       {/* Main Profile Card */}
       <div className="w-full flex flex-col items-center hover:bg-gray-200 px-8 transition-3">
         <Image src="/images/profilePic.jpeg" alt={'Profile Pic.'} width={60} height={60} loading="lazy" quality={100} className="rounded-full my-4"	/>
-        <Link href='https://www.github.com/SalmanIyad' target="_blank"><h3 className="!text-lg font-bold underline hover:text-[#108A00] transition-3">Salman Iyad</h3></Link>
+        <Link href='/profile' target="_blank"><h3 className="!text-lg font-bold underline hover:text-[#108A00] transition-3">Salman Iyad</h3></Link>
         <h3 className="!text-sm font-bold text-gray-800 mb-4">Computer Systems Eng. | Web Dev.</h3>
       </div>
       {/* Profile Completeness */}

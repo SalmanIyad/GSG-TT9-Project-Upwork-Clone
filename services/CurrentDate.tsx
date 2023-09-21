@@ -14,14 +14,14 @@ function CurrentDate() {
     };
 
     const today = new Date();
-    const formatted = today.toLocaleDateString('en-US', options);
+    const formatted = today.toLocaleDateString('en-US', options) + 'th';
 
     setFormattedDate(formatted);
   }, []);
 
   return (
     <div>
-      <h3>{formattedDate}th</h3>
+      <h3>{formattedDate || 'Loading Date..'}</h3>
     </div>
   );
 }
