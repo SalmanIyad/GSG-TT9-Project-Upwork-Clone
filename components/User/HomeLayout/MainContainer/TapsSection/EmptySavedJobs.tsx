@@ -491,7 +491,7 @@ const EmptySavedJobs = () => {
               letterSpacing: '.6px',
               textAlign: 'center',
             }}>
-            Keep track of jobs you're interested in. Select the heart icon on a
+            Keep track of jobs you&apos;re interested in. Select the heart icon on a
             job post to save it for later.
           </Typography>
         </Grid>
