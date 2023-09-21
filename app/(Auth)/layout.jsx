@@ -1,7 +1,7 @@
-import '../../styles/globals.css";
+import '../../styles/globals.css'
 
-import Header from "../../components/common/Header.jsx";
-import Footer from "../../components/common/Footer.jsx";
+import Header from "@/components/common/Header.jsx";
+import Footer from "@/components/common/Footer.jsx";
 
 import localFont from "next/font/local";
 import BackToTopButton from "@/components/general/BackToTopButton";
